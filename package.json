@@ -3,15 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "homepage": "https://github.com/prabube/todoapptest.github.io"
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "gh-pages": "^2.1.1",
     "mangodb": "^1.0.0",
     "mongodb": "^3.3.0"
   }
